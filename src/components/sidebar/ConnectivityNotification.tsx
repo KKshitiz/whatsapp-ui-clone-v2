@@ -1,7 +1,9 @@
+import { warningIcon } from "../../core/icons";
+
 const ConnectivityNotification = () => {
   return (
     <div className="connectivity-notification">
-      <img src="icons/warning.svg" alt="Offline warning" />
+      <img src={warningIcon} alt="Offline warning" />
       <div>
         <div className="connectivity-notification-title">
           Computer not connected

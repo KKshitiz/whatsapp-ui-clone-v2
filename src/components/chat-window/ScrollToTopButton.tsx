@@ -1,13 +1,15 @@
+import { arrowDownIcon } from "../../core/icons";
+
 const ScrollToTopButton = () => {
   return (
-    <a className="scroll-to-top-button" href="#">
+    <button className="scroll-to-top-button" aria-label="Scroll to top">
       <img
-        src="/arrow-down.svg"
-        alt=""
+        src={arrowDownIcon}
+        alt="Arrow down icon"
         className="icon scroll-to-top-button-icon"
         height=""
       />
-    </a>
+    </button>
   );
 };
 export default ScrollToTopButton;

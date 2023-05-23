@@ -1,3 +1,10 @@
+import {
+  communitiesIcon,
+  menuIcon,
+  newChatIcon,
+  statusIcon,
+} from "../../core/icons";
+
 const SidebarHeader = () => {
   return (
     <header id="sidebar-header">
@@ -8,11 +15,11 @@ const SidebarHeader = () => {
         id="profile-image"
       />
       <div className="toolbar">
-        <img src="icons/communities.svg" alt="" className="icon" />
-        <img src="icons/status.svg" alt="" className="icon" />
-        <img src="icons/new-chat.svg" alt="" className="icon" />
+        <img src={communitiesIcon} alt="" className="icon" />
+        <img src={statusIcon} alt="" className="icon" />
+        <img src={newChatIcon} alt="" className="icon" />
         <div className="dropdown">
-          <img src="icons/menu.svg" alt="" className="icon dropdown-button" />
+          <img src={menuIcon} alt="" className="icon dropdown-button" />
           <div className="dropdown-content">
             <a href="#">New group</a>
             <a href="#">New community</a>

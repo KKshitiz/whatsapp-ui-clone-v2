@@ -1,3 +1,5 @@
+import { menuIcon, searchIcon } from "../../core/icons";
+
 const ChatWindowHeader = () => {
   return (
     <header id="chat-window-header">
@@ -11,9 +13,9 @@ const ChatWindowHeader = () => {
         <h3>Friends 🤗</h3>
         <div className="info">You and 69 others</div>
       </div>
-      <img src="icons/search.svg" alt="" className="icon" />
+      <img src={searchIcon} alt="" className="icon" />
       <div className="dropdown">
-        <img src="icons/menu.svg" alt="" className="icon dropdown-button" />
+        <img src={menuIcon} alt="" className="icon dropdown-button" />
         <div className="dropdown-content contact-menu">
           <a href="#">Contact info</a>
           <a href="#">Select messages</a>

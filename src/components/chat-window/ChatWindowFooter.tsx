@@ -1,8 +1,10 @@
+import { attachmentIcon, emojiIcon, micIcon } from "../../core/icons";
+
 const ChatWindowFooter = () => {
   return (
     <footer id="chat-window-footer">
-      <img src="icons/emoji.svg" alt="" className="icon" />
-      <img src="icons/attachment.svg" alt="" className="icon" />
+      <img src={emojiIcon} alt="" className="icon" />
+      <img src={attachmentIcon} alt="" className="icon" />
       <input
         type="search"
         name="message"
@@ -10,7 +12,9 @@ const ChatWindowFooter = () => {
         placeholder="Type a message"
         autoComplete="off"
       />
-      <img src="icons/mic.svg" alt="" className="icon" />
+      <button>
+        <img src={micIcon} alt="" className="icon" />
+      </button>
     </footer>
   );
 };

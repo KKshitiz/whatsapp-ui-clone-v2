@@ -3,6 +3,7 @@ type Props = {
   name: string;
   lastInteractionTime: string;
   lastMessage: string;
+  isUnread: boolean;
 };
 
 const ChatTile = (props: Props) => {

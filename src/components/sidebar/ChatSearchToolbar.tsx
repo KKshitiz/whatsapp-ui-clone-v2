@@ -1,3 +1,5 @@
+import { filterIcon } from "../../core/icons";
+
 const ChatSearchToolbar = () => {
   return (
     <form id="search-toolbar">
@@ -7,7 +9,7 @@ const ChatSearchToolbar = () => {
         id="search-input"
         placeholder="Search or start a new chat"
       />
-      <img src="icons/filter.svg" alt="" className="icon" />
+      <img src={filterIcon} alt="Unread chats filter" className="icon" />
     </form>
   );
 };
