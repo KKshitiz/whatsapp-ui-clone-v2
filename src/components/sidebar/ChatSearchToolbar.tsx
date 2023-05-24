@@ -1,4 +1,4 @@
-import { filterIcon } from "../../core/icons";
+import { filterIcon } from "../../core/utils/icons";
 
 const ChatSearchToolbar = () => {
   return (

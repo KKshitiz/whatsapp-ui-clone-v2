@@ -1,4 +1,4 @@
-import { warningIcon } from "../../core/icons";
+import { warningIcon } from "../../core/utils/icons";
 
 const ConnectivityNotification = () => {
   return (

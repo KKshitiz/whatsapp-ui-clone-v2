@@ -1,4 +1,4 @@
-import { menuIcon, searchIcon } from "../../../core/icons";
+import { menuIcon, searchIcon } from "../../../core/utils/icons";
 import styles from "./ChatWindowHeader.module.css";
 
 const ChatWindowHeader = () => {

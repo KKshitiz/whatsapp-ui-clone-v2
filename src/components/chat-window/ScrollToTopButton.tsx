@@ -1,4 +1,4 @@
-import { arrowDownIcon } from "../../core/icons";
+import { arrowDownIcon } from "../../core/utils/icons";
 
 const ScrollToTopButton = () => {
   return (

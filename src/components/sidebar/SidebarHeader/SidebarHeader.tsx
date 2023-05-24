@@ -3,7 +3,7 @@ import {
   menuIcon,
   newChatIcon,
   statusIcon,
-} from "../../../core/icons";
+} from "../../../core/utils/icons";
 
 import styles from "./SidebarHeader.module.css";
 

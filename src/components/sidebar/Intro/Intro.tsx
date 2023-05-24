@@ -1,4 +1,4 @@
-import { introImage } from "../../../core/images";
+import { introImage } from "../../../core/utils/images";
 import styles from "./Intro.module.css";
 
 const Intro = () => {
