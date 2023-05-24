@@ -1,0 +1,9 @@
+#chat-window-header {
+  color: white;
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+  height: var(--header-height);
+  padding: 15px 20px;
+  background-color: var(--primary);
+}

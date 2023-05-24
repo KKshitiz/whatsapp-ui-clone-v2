@@ -1,4 +1,4 @@
-import { attachmentIcon, emojiIcon, micIcon } from "../../core/icons";
+import { attachmentIcon, emojiIcon, micIcon } from "../../../core/icons";
 
 const ChatWindowFooter = () => {
   return (

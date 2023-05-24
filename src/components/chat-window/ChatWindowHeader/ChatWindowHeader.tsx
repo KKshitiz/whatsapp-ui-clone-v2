@@ -1,8 +1,9 @@
-import { menuIcon, searchIcon } from "../../core/icons";
+import { menuIcon, searchIcon } from "../../../core/icons";
+import styles from "./ChatWindowHeader.module.css";
 
 const ChatWindowHeader = () => {
   return (
-    <header id="chat-window-header">
+    <header id={styles["chat-window-header"]}>
       <img
         src="https://picsum.photos/id/103/50"
         alt=""

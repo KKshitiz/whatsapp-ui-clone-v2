@@ -3,18 +3,20 @@ import {
   menuIcon,
   newChatIcon,
   statusIcon,
-} from "../../core/icons";
+} from "../../../core/icons";
+
+import styles from "./SidebarHeader.module.css";
 
 const SidebarHeader = () => {
   return (
-    <header id="sidebar-header">
+    <header id={styles["sidebar-header"]}>
       <img
         src="https://picsum.photos/id/10/50"
         alt=""
         className="avatar"
-        id="profile-image"
+        id={styles["profile-image"]}
       />
-      <div className="toolbar">
+      <div className={styles.toolbar}>
         <img src={communitiesIcon} alt="" className="icon" />
         <img src={statusIcon} alt="" className="icon" />
         <img src={newChatIcon} alt="" className="icon" />

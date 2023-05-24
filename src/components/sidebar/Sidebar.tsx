@@ -1,18 +1,18 @@
 import ChatSearchToolbar from "./ChatSearchToolbar";
-import ChatTile from "./ChatTile";
-import "./ChatTile.css";
+import ChatTile from "./ChatTile/ChatTile";
+// import "./ChatTile.css";
 import ConnectivityNotification from "./ConnectivityNotification";
-import "./Sidebar.css";
-import SidebarHeader from "./SidebarHeader";
+import styles from "./Sidebar.module.css";
+import SidebarHeader from "./SidebarHeader/SidebarHeader";
 
 const Sidebar = () => {
   return (
-    <aside id="sidebar">
+    <aside id={styles.sidebar}>
       <SidebarHeader />
       <ChatSearchToolbar />
       <ConnectivityNotification />
-      <section id="sidebar-contents">
-        <div id="chats-list">
+      <section id={styles["sidebar-contents"]}>
+        <div id={styles["chats-list"]}>
           <ChatTile
             avatarImageUrl="https://picsum.photos/id/103/50"
             name="Friends 🤗"

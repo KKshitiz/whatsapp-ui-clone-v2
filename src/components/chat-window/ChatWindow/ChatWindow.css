@@ -7,16 +7,6 @@
   /* background: url(../images/chat-bg.png); */
 }
 
-#chat-window-header {
-  color: white;
-  display: flex;
-  align-items: center;
-  column-gap: 12px;
-  height: var(--header-height);
-  padding: 15px 20px;
-  background-color: var(--primary);
-}
-
 .contact-menu {
   position: absolute;
   right: 5px;
@@ -43,40 +33,9 @@
   z-index: -1;
 } */
 
-#compose-chat-box {
-  margin: 0px 10px;
-  background-color: var(--compose-bg-color);
-  padding-left: 12px;
-  font-size: 15px;
-}
-
-#chat-window-footer {
-  display: flex;
-  /* column-gap: 10px; */
-  height: 62px;
-  width: 100%;
-  padding: 10px 25px;
-  background-color: var(--primary);
-}
-
 #active-chat-details > .info {
   color: var(--text-secondary);
   font-size: 13px;
-}
-
-.datestamp-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.datestamp {
-  color: var(--text-secondary);
-  font-size: 12.5px;
-  background-color: var(--primary);
-  border-radius: var(--border-radius);
-  padding: 8px 10px;
-  margin: 13px 0px;
 }
 
 .scroll-to-top-button {

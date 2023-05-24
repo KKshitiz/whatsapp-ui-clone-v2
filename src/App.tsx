@@ -1,12 +1,15 @@
+import { Outlet } from "react-router-dom";
 import "./App.css";
-import ChatWindow from "./components/chat-window/ChatWindow";
 import Sidebar from "./components/sidebar/Sidebar";
 
 function App() {
   return (
     <main>
       <Sidebar />
-      <ChatWindow />
+      {/* <div> */}
+      <Outlet />
+      {/* </div> */}
+      {/* <ChatWindow /> */}
     </main>
   );
 }

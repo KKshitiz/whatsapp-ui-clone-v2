@@ -7,24 +7,9 @@
   border-right: solid 1px var(--border-color);
 }
 
-#sidebar-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: var(--header-height);
-  background-color: var(--primary);
-  padding: 20px 15px;
-}
 
-#profile-image {
-  height: 40px;
-}
 
-.toolbar {
-  /* width: 190px; */
-  display: flex;
-  justify-content: space-between;
-}
+
 
 #search-toolbar {
   display: flex;

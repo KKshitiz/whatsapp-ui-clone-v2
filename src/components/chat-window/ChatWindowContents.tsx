@@ -1,9 +1,9 @@
+import DateStamp from "./DateStamp.tsx/DateStamp";
+
 const ChatWindowContents = () => {
   return (
     <div id="chat-window-contents">
-      <div className="datestamp-container">
-        <span className="datestamp">03/05/2023</span>
-      </div>
+      <DateStamp />
       <div className="chat-message-group">
         <img
           src="https://picsum.photos/50"

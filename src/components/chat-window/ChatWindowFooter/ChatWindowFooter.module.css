@@ -1,0 +1,15 @@
+#chat-window-footer {
+  display: flex;
+  /* column-gap: 10px; */
+  height: 62px;
+  width: 100%;
+  padding: 10px 25px;
+  background-color: var(--primary);
+}
+
+#compose-chat-box {
+  margin: 0px 10px;
+  background-color: var(--compose-bg-color);
+  padding-left: 12px;
+  font-size: 15px;
+}
