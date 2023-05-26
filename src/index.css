@@ -59,6 +59,18 @@ body {
   color: var(--text-primary);
 }
 
+#root {
+  height: 100%;
+}
+
+button {
+  background: none;
+  border: none;
+  padding: 0;
+  color: inherit;
+  font: inherit;
+}
+
 input[type="search"] {
   border: none;
   outline: none;

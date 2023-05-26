@@ -1,9 +1,9 @@
-import ChatSearchToolbar from "./ChatSearchToolbar";
-import ChatTile from "./ChatTile/ChatTile";
+import ChatSearchToolbar from "../ChatSearchToolbar/ChatSearchToolbar";
+import ChatTile from "../ChatTile/ChatTile";
 // import "./ChatTile.css";
-import ConnectivityNotification from "./ConnectivityNotification";
+import ConnectivityNotification from "../ConnectivityNotification/ConnectivityNotification";
+import SidebarHeader from "../SidebarHeader/SidebarHeader";
 import styles from "./Sidebar.module.css";
-import SidebarHeader from "./SidebarHeader/SidebarHeader";
 
 const Sidebar = () => {
   return (

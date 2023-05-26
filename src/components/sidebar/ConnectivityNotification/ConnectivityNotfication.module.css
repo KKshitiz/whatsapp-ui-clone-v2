@@ -1,35 +1,3 @@
-#sidebar {
-  flex-grow: 1;
-  max-width: 40%;
-
-  display: flex;
-  flex-direction: column;
-  border-right: solid 1px var(--border-color);
-}
-
-
-
-
-
-#search-toolbar {
-  display: flex;
-  column-gap: 10px;
-  height: 49px;
-  padding: 7px 10px;
-}
-
-#search-input {
-  padding-left: 30px;
-}
-
-#sidebar-contents {
-  flex-grow: 1;
-  overflow: auto;
-
-  display: flex;
-  flex-direction: column;
-}
-
 .connectivity-notification {
   padding: 12px 15px;
   background-color: var(--bg-color-secondary);

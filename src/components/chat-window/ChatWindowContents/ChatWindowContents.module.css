@@ -1,0 +1,7 @@
+#chat-window-contents {
+  flex-grow: 1;
+  position: relative;
+  z-index: 1;
+  overflow: auto;
+  padding: 10px;
+}

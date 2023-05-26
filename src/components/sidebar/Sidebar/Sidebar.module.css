@@ -1,0 +1,22 @@
+#sidebar {
+  flex-grow: 1;
+  max-width: 40%;
+
+  display: flex;
+  flex-direction: column;
+  border-right: solid 1px var(--border-color);
+}
+
+
+
+#search-input {
+  padding-left: 30px;
+}
+
+#sidebar-contents {
+  flex-grow: 1;
+  overflow: auto;
+
+  display: flex;
+  flex-direction: column;
+}

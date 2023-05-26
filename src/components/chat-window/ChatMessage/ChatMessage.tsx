@@ -19,9 +19,7 @@ const ChatMessage = (props: Props) => {
           <div className={styles["chat-message-sender"]}>Kshitiz</div>
         )}
         {message}
-        <span className={styles["chat-message-time"]}>
-          {time.toTimeString()}
-        </span>
+        <span className={styles["chat-message-time"]}>{time.toString()}</span>
       </div>
       <EmojiReactionToolbar />
     </div>

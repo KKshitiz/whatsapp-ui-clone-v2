@@ -1,0 +1,6 @@
+#search-toolbar {
+  display: flex;
+  column-gap: 10px;
+  height: 49px;
+  padding: 7px 10px;
+}

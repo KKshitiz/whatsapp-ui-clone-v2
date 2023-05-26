@@ -1,14 +1,15 @@
 import { attachmentIcon, emojiIcon, micIcon } from "../../../core/utils/icons";
+import styles from "./ChatWindowFooter.module.css";
 
 const ChatWindowFooter = () => {
   return (
-    <footer id="chat-window-footer">
+    <footer id={styles["chat-window-footer"]}>
       <img src={emojiIcon} alt="" className="icon" />
       <img src={attachmentIcon} alt="" className="icon" />
       <input
         type="search"
         name="message"
-        id="compose-chat-box"
+        id={styles["compose-chat-box"]}
         placeholder="Type a message"
         autoComplete="off"
       />

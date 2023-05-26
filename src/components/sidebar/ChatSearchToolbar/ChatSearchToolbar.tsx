@@ -1,8 +1,9 @@
-import { filterIcon } from "../../core/utils/icons";
+import { filterIcon } from "../../../core/utils/icons";
+import styles from "./ChatSearchToolbar.module.css";
 
 const ChatSearchToolbar = () => {
   return (
-    <form id="search-toolbar">
+    <form id={styles["search-toolbar"]}>
       <input
         type="search"
         name=""

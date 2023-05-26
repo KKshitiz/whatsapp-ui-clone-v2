@@ -1,0 +1,19 @@
+.scroll-to-top-button {
+  border-radius: 50%;
+  height: 42px;
+  width: 42px;
+  background-color: var(--primary);
+  position: absolute;
+  bottom: 80px;
+  right: 20px;
+  transition: all 0.1s ease-in-out;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scroll-to-top-button-icon {
+  height: 35px;
+  width: 35px;
+}
